@@ -1,3 +1,5 @@
+package codingDojoDSA
+
 fun main() {
     val num = 7
     print("Guess a number between 0 and 10: ")
