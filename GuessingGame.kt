@@ -8,6 +8,7 @@ fun main() {
         if(guess == num){
             println("You got it!")
             println("Game Over")
+            println("Try again!")
 
        }else if (guess <= 10){
             println("Please enter numbers between 0 and 10 only")
