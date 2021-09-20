@@ -1,0 +1,23 @@
+Kotlin Notes: Abdulmajeed Shukayri.
+
+immutable = val
+mutable = var
+Int, Float, String, Boolean
+-- readLine() to get the input from the user. We have to assign it to a val
+-- message.replace() to replace a String with another String
+--message.subSequence() to print a range of letter from message. i.e: println(message.subSequence(2,5).
+--finding the index number of a letter: message.indexOf('g')
+--String Interpolation with $
+--num!!.toInt() to force the  user to enter only numbers
+-- we use try/catch to print an error whenever the user doesn't do what he is asked to
+--while loop: while(true) --> this means the while loop will run until we break from it.
+--when: we can use when as an alternative if statement. i.e: when {
+                                                                     grade < 60 -> println("F")
+                                                                     grade < 70 -> println("D")
+                                                                     grade < 80 -> println("C")
+                                                                     grade < 90 -> println("B")
+                                                                     else -> println("A")
+                                                                      }
+--Random.nextInt(1, 7): we use random function to randomize the input from 1, 7.
+
+
