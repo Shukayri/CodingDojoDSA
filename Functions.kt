@@ -10,8 +10,9 @@ fun checkLetter(str: String){
         println("The first letter is not uppercase $str")
     }
 }
-    checkLetter("Word")
-    checkLetter("damacia")
-    checkLetter("Lopu")
+    var myList = listOf("word", "Damacia", "Door", "sda")
+    for (word in myList){
+        checkLetter(word)
+    }
 
 }
